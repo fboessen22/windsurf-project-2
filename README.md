@@ -77,7 +77,7 @@ DB_PASSWORD=your_password
 
 1. Start the Flask development server:
    ```
-   python app.py
+   python sql_job_monitor.py
    ```
 2. Open your web browser and navigate to:
    ```
@@ -170,7 +170,7 @@ The application provides the following REST API endpoints:
 
 ```
 de-sql-server-job-monitor/
-├── app.py                 # Main Flask application
+├── sql_job_monitor.py     # Main Flask application
 ├── requirements.txt       # Python dependencies
 ├── .env.example          # Example environment configuration
 ├── .gitignore            # Git ignore rules
