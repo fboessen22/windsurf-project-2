@@ -23,7 +23,7 @@ A web-based monitoring tool for SQL Server Agent jobs. Monitor job execution sta
 1. Clone this repository:
    ```bash
    git clone <repository-url>
-   cd windsurf-project-2
+   cd de-sql-server-job-monitor
    ```
 
 2. Install the required Python packages:
@@ -169,7 +169,7 @@ The application provides the following REST API endpoints:
 ## Project Structure
 
 ```
-windsurf-project-2/
+de-sql-server-job-monitor/
 ├── app.py                 # Main Flask application
 ├── requirements.txt       # Python dependencies
 ├── .env.example          # Example environment configuration
